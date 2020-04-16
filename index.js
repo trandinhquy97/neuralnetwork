@@ -20,10 +20,10 @@ for (let i = 0; i < 50000; i++) {
     nn.train(item.inputs, item.targets)
 }
 
-console.log(nn.feedForward([0, 0]))
-console.log(nn.feedForward([0, 1]))
-console.log(nn.feedForward([1, 0]))
-console.log(nn.feedForward([1, 1]))
+console.log("0 XOR 0 = " + nn.predict([0, 0]))
+console.log("0 XOR 1 = " + nn.predict([0, 1]))
+console.log("1 XOR 0 = " + nn.predict([1, 0]))
+console.log("1 XOR 1 = " + nn.predict([1, 1]))
 
 
 
