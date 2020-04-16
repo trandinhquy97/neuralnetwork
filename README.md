@@ -24,3 +24,7 @@ nn.predict(i)
 
 i: input value (an array)  
 result: output value (an array)
+
++ **RESULT**:
+This is a result when using this library to resolve XOR problem with NeuralNetwork(2, 2, 1):  
+![alt text](https://github.com/trandinhquy97/neuralnetwork/blob/master/images/result.PNG?raw=true)
